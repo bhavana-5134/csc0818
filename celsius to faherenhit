@@ -1,0 +1,6 @@
+def celisius_to_faherenhit(celsius):
+    faherenhit= (celsius *9/5)+32
+    return faherenhit
+celsius = float(input("enter temperature in celsius:"))
+faherenhit= celsius_to_faherenhit(celsius)
+print(celsius,"c is equal to",faherenhit,"f")
